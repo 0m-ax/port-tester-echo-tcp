@@ -1,0 +1,8 @@
+[Unit]
+Description=port-tester-echo-tcp
+
+[Service]
+ExecStart=/usr/bin/node /app/port-tester-echo-tcp/index.js
+
+[Install]
+WantedBy=multi-user.target
